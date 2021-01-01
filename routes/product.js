@@ -153,7 +153,8 @@ router.delete('/:id', protect, authorize('admin'), async (req, res, next) => {
 // @desc      Delete all Product
 // @route     GET /api/v1/product
 // @access    Private
-router.delete('/', protect, authorize('admin'), async (req, res, next) => {
+//router.delete('/', protect, authorize('admin'), async (req, res, next) => {
+router.delete('/', async (req, res, next) => {
 
     try {
 
