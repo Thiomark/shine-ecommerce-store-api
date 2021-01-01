@@ -23,7 +23,7 @@ const ProductSchema = new mongoose.Schema({
         min: [1, 'Rating must be at least 1'],
         max: [10, 'Rating must can not be more than 10']
     },
-    categorie: {
+    categories: {
         type: [String],
         // enum: ['shoes', 'watches', 'hoodies', 'jeans', "clothing", "t-shirt", 'jackets', 'tees'],
         required: true
