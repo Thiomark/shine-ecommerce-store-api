@@ -1,0 +1,21 @@
+{
+    "success": true,
+    "product": {
+        "categories": [
+            "shoes"
+        ],
+        "tags": [
+            "high",
+            "nike"
+        ],
+        "section": "all",
+        "_id": "5feee24b3c4b8e3650cd000b",
+        "title": "Product Default2",
+        "productCost": 2150,
+        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus' Bonorum et Malorum",
+        "averageRating": 8,
+        "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "createdAt": "2021-01-01T08:50:19.219Z",
+        "__v": 0
+    }
+}

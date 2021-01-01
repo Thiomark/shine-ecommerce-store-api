@@ -6,22 +6,26 @@ const ProductSchema = new mongoose.Schema({
         type: String,
         required: [true, 'Please add a name'],
         trim: true,
-        maxlength: [50, 'Name can not be more than 50 characters']
+        unique: false,
+        maxlength: [120, 'Name can not be more than 120 characters']
     },
     slug: String,
     description: {
         type: String,
         required: [true, 'Please add a description'],
-        maxlength: [500, 'Description can not be more than 500 characters']
+    },
+    summary: {
+        type: String,
+        required: [true, 'Please add a description'],
     },
     averageRating: {
         type: Number,
         min: [1, 'Rating must be at least 1'],
         max: [10, 'Rating must can not be more than 10']
     },
-    categories: {
+    categorie: {
         type: [String],
-        enum: ['shoes', 'watches', 'hoodies', 'jeans', "clothing", "t-shirt", 'jackets', 'tees'],
+        // enum: ['shoes', 'watches', 'hoodies', 'jeans', "clothing", "t-shirt", 'jackets', 'tees'],
         required: true
     },
     tags: {
