@@ -4,7 +4,6 @@ const Product = require('../models/Product')
 const ErrorResponse = require('../utils/errorResponse');
 const {protect, authorize} = require('../middleware/auth')
 
-
 // @desc      Get all Product
 // @route     GET /api/v1/product
 // @access    Public
