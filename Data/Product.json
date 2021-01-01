@@ -1,0 +1,31 @@
+[
+    {
+        "title": "Product Default Carousel",
+        "productCost": 1200,
+        "description": "Quickly impact bleeding-edge bandwidth whereas covalent catalysts for change. Tonal stitching. 98% cotton, 2% elastane. Made in Italy",
+        "categories": [
+            "clothing",
+            "t-shirt"
+        ],
+        "tags": [
+            "summer",
+            "tees"
+        ],
+        "averageRating": 7,
+        "image": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+    },
+    {
+        "title": "Lorem ipsum dolor",
+        "productCost": 1500,
+        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus' Bonorum et Malorum",
+        "categories": [
+            "shoes"
+        ],
+        "tags": [
+            "high",
+            "nike"
+        ],
+        "averageRating": 8,
+        "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+    }
+]
