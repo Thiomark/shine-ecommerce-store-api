@@ -1,21 +1,45 @@
+// {
+//     "success": true,
+//     "product": {
+//         "categories": [
+//             "shoes"
+//         ],
+//         "tags": [
+//             "high",
+//             "nike"
+//         ],
+//         "section": "all",
+//         "_id": "5feee24b3c4b8e3650cd000b",
+//         "title": "Product Default2",
+//         "productCost": 2150,
+//         "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus' Bonorum et Malorum",
+//         "averageRating": 8,
+//         "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+//         "createdAt": "2021-01-01T08:50:19.219Z",
+//         "__v": 0
+//     }
+// }
+
 {
     "success": true,
     "product": {
         "categories": [
-            "shoes"
+            "clothing",
+            "t-shirt"
         ],
         "tags": [
-            "high",
-            "nike"
+            "summer",
+            "tees"
         ],
         "section": "all",
-        "_id": "5feee24b3c4b8e3650cd000b",
-        "title": "Product Default2",
-        "productCost": 2150,
-        "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from 'de Finibus' Bonorum et Malorum",
-        "averageRating": 8,
-        "image": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
-        "createdAt": "2021-01-01T08:50:19.219Z",
+        "_id": "5feefb01934a9c0017995cef",
+        "title": "Product Default1",
+        "productCost": 2100,
+        "summary": "Quickly impact bleeding-edge bandwidth whereas covalent catalysts for change. Tonal stitching. 98% cotton, 2% elastane. Made in Italy",
+        "averageRating": 7,
+        "description": "Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ex, odio molestias facilis aliquid corporis iusto rerum deserunt rem consequatur dolor, debitis facere consectetur earum suscipit in maiores fugiat! Architecto. adipisicing elit. Cum ex, odio molestias facilis aliquid corporis iusto rerum deserunt rem consequatur dolor, debitis facere consectetur earum suscipit in maiores fugiat! Architecto Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ex, odio molestias facilis aliquid corporis iusto rerum deserunt rem consequatur dolor, debitis facere consectetur earum suscipit in maiores fugiat! Architecto. adipisicing elit. Cum ex, odio molestias facilis aliquid corporis iusto rerum deserunt rem consequatur dolor, debitis facere consectetur earum suscipit in maiores fugiat! Architecto.",
+        "image": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+        "createdAt": "2021-01-01T10:35:45.955Z",
         "__v": 0
     }
 }

@@ -1,5 +1,60 @@
-{
-    "title": "random comment",
-    "comment": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
-    "rating": 4
-}
+[
+    {
+        "profilePicture": "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg:large",
+        "reviewModified": false,
+        "_id": "5ff3e58ee8258139c09193d7",
+        "product": "5feefb01934a9c0017995cf0",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
+        "rating": 4,
+        "user": "5ff018ecce719a0017815d87"
+    },
+    {
+        "profilePicture": "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg:large",
+        "reviewModified": false,
+        "_id": "5ff3f51de8258139c09193d8",
+        "product": "5feefb01934a9c0017995cf2",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
+        "rating": 4,
+        "user": "5ff018ecce719a0017815d87"
+    },
+    {
+        "profilePicture": "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg:large",
+        "reviewModified": false,
+        "_id": "5ff3f525e8258139c09193d9",
+        "product": "5feefb01934a9c0017995cf2",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
+        "rating": 4,
+        "user": "5ff018ecce719a0017815d87",
+        "createdAt": "2021-01-05T05:12:05.316Z"
+    },
+    {
+        "profilePicture": "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg:large",
+        "reviewModified": false,
+        "_id": "5ff3f533e8258139c09193da",
+        "product": "5feefb01934a9c0017995cf2",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
+        "rating": 4,
+        "user": "5ff018ecce719a0017815d87",
+        "createdAt": "2021-01-05T05:12:19.538Z"
+    },
+    {
+        "profilePicture": "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg:large",
+        "reviewModified": false,
+        "_id": "5ff3f5c9e8258139c09193db",
+        "product": "5ff3e58ee8258139c09193d7",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
+        "rating": 5,
+        "user": "5ff018ecce719a0017815d87",
+        "createdAt": "2021-01-05T05:14:49.909Z"
+    },
+    {
+        "profilePicture": "https://pbs.twimg.com/media/DZotU1hW0AEDN5F.jpg:large",
+        "reviewModified": false,
+        "_id": "5ff3f67ee8258139c09193dc",
+        "product": "5ff3e58ee8258139c09193d7",
+        "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam, libero omnis repellendus sit dolores odio ratione dicta ducimus expedita alias?",
+        "rating": 5,
+        "user": "5ff018ecce719a0017815d87",
+        "createdAt": "2021-01-05T05:17:50.433Z"
+    }
+]

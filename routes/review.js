@@ -80,6 +80,58 @@ router.post('/', protect, authorize('admin', 'user'), async (req, res, next) => 
                 }
             });
 
+            await Review.create(reviewsWithAllFields, function(err, user){
+                if(err) return next(err)
+                else{
+                    res.status(201).json({
+                        success: true,
+                        message: "Reviews added to the database"
+                    })
+                }
+            })
+        }
+        else{
+            await Review.create(req.body, function(err, user){
+                if(err) return next(err)
+                else{
+                    res.status(201).json({
+                            success: true,
+                            data
+                        }
+                    )
+                }
+            });
+        }
+    } 
+    catch (err) {
+        return next(new ErrorResponse(err.message, 500));
+    }
+})
+
+
+// @desc      Post a single Review
+// @route     POST /api/v1/review
+// @access    Private
+router.post('/seeder', protect, authorize('admin'), async (req, res, next) => { 
+
+    try {
+
+        // Adding the user to the request body
+        req.body.user = req.user.id
+        const data = req.body
+
+        if(req.user.role === 'admin' && Array.isArray(data) && data.length >= 2){
+            let rejectedReviews = []
+            const newReviews = req.body
+            const reviewsWithAllFields = newReviews.filter(function(review){ 
+                if(review.product && review.title && review.comment){
+                    return review
+                }
+                else{
+                    rejectedReviews.push(review)
+                }
+            });
+
             await Review.insertMany(reviewsWithAllFields, function(err, user){
                 if(err) return next(err)
                 else{

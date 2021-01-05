@@ -22,6 +22,7 @@ app.use(cookieParser());
 
 app.use('/api/v1/user', require('./routes/auth'))
 app.use('/api/v1/product', require('./routes/product'))
+app.use('/api/v1/review', require('./routes/review'))
 
 app.all('*', (req, res, next) => {
     res.status(404).json({
