@@ -66,6 +66,7 @@ router.post('/', protect, authorize('admin', 'user'), async (req, res, next) => 
 
         // Adding the user to the request body
         req.body.user = req.user.id
+        req.body.name = req.user.name
         const data = req.body
 
         if(req.user.role === 'admin' && Array.isArray(data) && data.length >= 2){
