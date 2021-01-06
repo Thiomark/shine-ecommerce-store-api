@@ -41,7 +41,7 @@ const OrderSchema = new mongoose.Schema({
         required: [true, 'Please add an email'],
     },
     item: {
-        type: [String],
+        type: [Object],
         required: [true, 'Please add items'],
     },
     shipping: {
