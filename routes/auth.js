@@ -77,7 +77,7 @@ router.get('/me', protect, async (req, res, next) => {
 // Get token from model, create cookie and send response
 function sendTokenResponse(userInfo, statusCode, res){
 
-    const {name, _id, email } = userInfo
+    const {name, _id, email, role } = userInfo
 
     const user = {name, _id, email}
 
@@ -101,7 +101,8 @@ function sendTokenResponse(userInfo, statusCode, res){
       .json({
         success: true,
         token,
-        user
+        user,
+        role
       });
   };
   
