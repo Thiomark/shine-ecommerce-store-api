@@ -79,7 +79,7 @@ function sendTokenResponse(userInfo, statusCode, res){
 
     const {name, _id, email, role } = userInfo
 
-    const user = {name, _id, email}
+    const user = {name, _id, email, role}
 
     // Create token
     const token = jwt.sign({ id: userInfo._id }, process.env.JWT_SECRET, { expiresIn: process.env.JWT_EXPIRE });
@@ -101,8 +101,7 @@ function sendTokenResponse(userInfo, statusCode, res){
       .json({
         success: true,
         token,
-        user,
-        role
+        user
       });
   };
   
