@@ -59,8 +59,9 @@ router.get('/', async (req, res, next) => {
 // @desc      Post Many Products
 // @route     GET /api/v1/product/productseeder
 // @access    Private
-//router.post('/productseeder', protect, authorize('admin'), async (req, res, next) => { 
-router.post('/productseeder', async (req, res, next) => { 
+//router.post('/productseeder', async (req, res, next) => { 
+    
+router.post('/productseeder', protect, authorize('admin'), async (req, res, next) => { 
 
     try {
 
@@ -82,6 +83,31 @@ router.post('/productseeder', async (req, res, next) => {
                         success: true,
                         message: "Products added to the database"
                         // "rejected Products": rejectedProducts
+                    }
+                )
+            }
+        })
+    } 
+    catch (err) {
+        return next(new ErrorResponse(err.message, 500));
+    }
+})
+
+// @desc      Post One Products
+// @route     GET /api/v1/product/
+// @access    Private
+//router.post('/productseeder', async (req, res, next) => { 
+
+router.post('/', protect, authorize('admin'), async (req, res, next) => { 
+
+    try {
+
+        await Product.insertMany(req.body, function(err, user){
+            if(err) return next(err)
+            else{
+                res.status(201).json({
+                        success: true,
+                        message: "Products added to the database"
                     }
                 )
             }
@@ -153,9 +179,8 @@ router.delete('/:id', protect, authorize('admin'), async (req, res, next) => {
 // @desc      Delete all Product
 // @route     GET /api/v1/product
 // @access    Private
-//router.delete('/', protect, authorize('admin'), async (req, res, next) => {
-router.delete('/', async (req, res, next) => {
 
+router.delete('/', protect, authorize('admin'), async (req, res, next) => {
     try {
 
         // Deleting all removed accounts = { removeItem : true }
