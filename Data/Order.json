@@ -1,0 +1,68 @@
+[
+    {
+        "firstName": "Will",
+        "lastName": "Smith",
+        "address": "2986 Eagle Lane",
+        "town": "Johannesburg",
+        "province": "Gauteng ",
+        "phoneNumber": "087111222",
+        "notes": "Call first",
+        "email": "will@gmail.com",
+        "item": [
+            "first",
+            "second"
+        ],
+        "shipping": 1200,
+        "toatlAmount": 5000,
+        "orderNumber": "4567890",
+        "estimatedDelivery": "2021-01-13T17:47:24.660Z"
+    },
+    {
+        "firstName": "Itumeleng",
+        "lastName": "Tsoela",
+        "address": "2220 Mmamahabane",
+        "houseNumber": "",
+        "town": "Ventersburg",
+        "province": "Free State",
+        "phoneNumber": "+27787576092",
+        "zipcode": "9450",
+        "notes": "",
+        "email": "iotsoela@gmail.com",
+        "item": [
+            {
+                "price": 2150,
+                "title": "Product Default2",
+                "productImage": "https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+                "productID": "5feefb01934a9c0017995cf0",
+                "quantity": 1,
+                "totalPrice": 2150
+            },
+            {
+                "price": 2100,
+                "title": "Product Default1",
+                "productImage": "https://images.pexels.com/photos/1656684/pexels-photo-1656684.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+                "productID": "5feefb01934a9c0017995cef",
+                "quantity": 1,
+                "totalPrice": 2100
+            },
+            {
+                "price": 2109.95,
+                "title": "Product Default3",
+                "productImage": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+                "productID": "5feefb01934a9c0017995cf1",
+                "quantity": 1,
+                "totalPrice": 2109.95
+            },
+            {
+                "price": 222.3,
+                "title": "Product Default4",
+                "productImage": "https://images.pexels.com/photos/1027130/pexels-photo-1027130.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+                "productID": "5feefb01934a9c0017995cf2",
+                "quantity": 1,
+                "totalPrice": 222.3
+            }
+        ],
+        "shipping": 200,
+        "toatlAmount": 6782.25
+    }
+]

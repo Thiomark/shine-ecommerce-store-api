@@ -28,7 +28,7 @@ const ReviewSchema = new mongoose.Schema({
     },
     profilePicture: {
         type: String,
-        default: "no-photo.jpg"
+        default: "https://pixabay.com/vectors/blank-profile-picture-mystery-man-973460/"
     },
     reviewModified: {
         type: Boolean,
